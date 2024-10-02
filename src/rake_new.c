@@ -51,7 +51,7 @@ void new_project(const char *name) {
 		}
 
 
-		create_file(name, "build.sh", "gcc main.c -o main");
+		create_file(name, "build.sh", "gcc main.c -o bin/main");
 
 		char bin_dir[256];
 		create_full_path(bin_dir, sizeof(bin_dir), name, "bin");
