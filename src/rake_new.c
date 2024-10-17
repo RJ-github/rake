@@ -59,5 +59,6 @@ void new_project(const char *name) {
 
 
 		printf("project created successfully\n");
+		printf("Hello did I compile\n");
 	}
 }

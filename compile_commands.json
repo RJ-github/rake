@@ -1,0 +1,50 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-std=c99",
+      "-Wall",
+      "-Wextra",
+      "-Iheaders",
+      "-o",
+      "bin/rake",
+      "src/main.c"
+    ],
+    "directory": "/home/rjlinux/dev/rake",
+    "file": "/home/rjlinux/dev/rake/src/main.c",
+    "output": "/home/rjlinux/dev/rake/bin/rake"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-std=c99",
+      "-Wall",
+      "-Wextra",
+      "-Iheaders",
+      "-o",
+      "bin/rake",
+      "src/rake_new.c"
+    ],
+    "directory": "/home/rjlinux/dev/rake",
+    "file": "/home/rjlinux/dev/rake/src/rake_new.c",
+    "output": "/home/rjlinux/dev/rake/bin/rake"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-std=c99",
+      "-Wall",
+      "-Wextra",
+      "-Iheaders",
+      "-o",
+      "bin/rake",
+      "src/rake_build.c"
+    ],
+    "directory": "/home/rjlinux/dev/rake",
+    "file": "/home/rjlinux/dev/rake/src/rake_build.c",
+    "output": "/home/rjlinux/dev/rake/bin/rake"
+  }
+]
