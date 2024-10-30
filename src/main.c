@@ -1,5 +1,5 @@
-#include "../headers/rake_build.h"
-#include "../headers/rake_new.h"
+#include "rake_build.h"
+#include "rake_new.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -18,7 +18,11 @@ int main(int argc, char *argv[]) {
 		char *name = argv[2];
 		new_project(name);
 	} else if(strcmp(argv[1], "build") == 0) {
-		build();
+		Command cmd;
+		cmd.target = "bin/rake";
+		cmd.files = get_src_files();
+		cmd.compiler = "gcc";
+		create_command(cmd);
 	} else {
 		printf("command not found\n");
 	}
